@@ -1,0 +1,47 @@
+.container-placar {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.container-placar-title {
+  margin: 40px 0px 0px 0px;
+}
+.container-placar-divisao {
+  background-color: var(--background-placar);
+  border-radius: 10px;
+  max-width: 920px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.time {
+  font-size: 25px;
+  color: #000000;
+}
+.resultado {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Adicione uma margem lateral em telas menores */
+@media only screen and (max-width: 767px) {
+  .container-placar-divisao {
+    margin: 2rem 10px; /* Ajuste a margem conforme desejado */
+  }
+  .time {
+    font-size: 20px;
+  }
+  .divisao-time {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Dispositivos com tela média */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container-placar-divisao {
+    margin: 2rem 20px; /* Ajuste a margem conforme desejado */
+  }
+}

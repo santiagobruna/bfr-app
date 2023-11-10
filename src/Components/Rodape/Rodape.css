@@ -1,0 +1,24 @@
+.rodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--fundo-rodape);
+  color: #fcfcfc;
+  padding: 20px;
+}
+
+.rodape a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.rodape a:hover {
+  color: #ffcd4b;
+}
+/* Adicione uma margem lateral em telas menores */
+@media only screen and (max-width: 767px) {
+  .rodape {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,15 @@
+.container-historia {
+  text-align: center;
+}
+
+.container-historia img {
+  padding: 60px 0px;
+  max-width: 310px;
+}
+
+.container-historia p {
+  padding: 60px 20px;
+  max-width: 850px;
+  text-align: justify;
+  margin: auto;
+}

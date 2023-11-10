@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  background: url(/public/assets/mobile-topo.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 190px;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 60px;
+}
+.menu {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.lista {
+  display: flex;
+  gap: 20px;
+  padding-right: 10px;
+}
+.lista li a {
+  list-style-type: none;
+  color: #fff;
+  text-decoration: none;
+}
+.lista li a:hover {
+  color: #d3c8c8;
+}
+.texto-sobre-imagem {
+  display: none;
+  position: absolute;
+  top: 50px; /* Ajuste conforme necessário para posicionar o texto verticalmente */
+  left: 40%; /* Coloca o texto no centro horizontalmente */
+  transform: translateX(
+    -50%
+  ); /* Move o texto para a esquerda em 50% da sua largura, centralizando-o */
+  color: rgb(142, 154, 132); /* Cor do texto */
+  font-size: 24px; /* Tamanho da fonte do texto */
+  /* Outros estilos do texto... */
+}
+
+/* Dispositivos com tela média */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Estilos para dispositivos com tela média */
+  .header {
+    background: url(/public/assets/tablet-topo.png);
+    width: 100%;
+    height: 427px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .logo {
+    width: 90px;
+  }
+}
+
+/* Dispositivos com tela grande */
+@media only screen and (min-width: 992px) {
+  /* Estilos para dispositivos com tela grande */
+
+  .header {
+    background: url(/public/assets/desktop-topo.png);
+    width: 100%;
+    height: 543px;
+  }
+  .lista {
+    padding-right: 40px;
+  }
+  .texto-sobre-imagem {
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 16%;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family-citacao);
+    font-size: 24px;
+    width: 462px;
+    height: 121px;
+    margin-left: 90px;
+  }
+  .texto-sobre-imagem span {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .logo {
+    width: 90px;
+  }
+}
