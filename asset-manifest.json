@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bfr-app/static/css/main.1956bc64.css",
+    "main.js": "/bfr-app/static/js/main.f67d9d2e.js",
+    "static/js/787.7971a3a0.chunk.js": "/bfr-app/static/js/787.7971a3a0.chunk.js",
+    "static/media/desktop-topo.png": "/bfr-app/static/media/desktop-topo.d785f57ef9aec7dc9804.png",
+    "static/media/tablet-topo.png": "/bfr-app/static/media/tablet-topo.e44e32ca5dae34065ed9.png",
+    "index.html": "/bfr-app/index.html",
+    "main.1956bc64.css.map": "/bfr-app/static/css/main.1956bc64.css.map",
+    "main.f67d9d2e.js.map": "/bfr-app/static/js/main.f67d9d2e.js.map",
+    "787.7971a3a0.chunk.js.map": "/bfr-app/static/js/787.7971a3a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1956bc64.css",
+    "static/js/main.f67d9d2e.js"
+  ]
+}
